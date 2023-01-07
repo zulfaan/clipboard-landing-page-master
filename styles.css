@@ -1,0 +1,239 @@
+body{
+    margin: 0;
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h1{
+    margin-bottom: 0;
+    width: 35rem;
+}
+h1, h2, h3{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.header-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+.logo-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 35rem;
+    line-break: strict;
+}
+.logo-top{
+    width: 20%;
+    padding-bottom: 1.5rem;
+}
+.text-header{
+    margin-top: 0.8rem;
+    width: 29.6rem;
+}
+.download-header{
+    padding: 1.5rem;
+}
+.btn{
+    padding: 0.6rem 1.8rem 0.6rem 1.8rem;
+    color: #ffff;
+    text-decoration: none;
+    -webkit-border-radius: 25.25;
+    -moz-border-radius: 25.25;
+    border-radius: 25.25rem;
+}
+.btn:hover{
+    text-decoration: none;
+    opacity: 65%;
+}
+.ios{
+    margin-right: 0.5rem;
+    background-color: hsl(171, 66%, 44%);
+    -webkit-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(171, 66%, 44%);
+    -moz-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(171, 66%, 44%);
+    box-shadow: 0.1rem 0.0625rem 0.15rem hsl(171, 66%, 44%);
+}
+.mac{
+    margin-left: 0.5rem;
+    background-color: hsl(233, 100%, 69%);
+    -webkit-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(233, 100%, 69%);
+    -moz-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(233, 100%, 69%);
+    box-shadow: 0.1rem 0.0625rem 0.15rem hsl(233, 100%, 69%);
+}
+.top-body{
+    display: grid;
+}
+.card-title{
+    padding-top: 7.5rem;
+    padding-bottom: 5.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.title-text{
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+.text-body{
+    width: 38rem;
+}
+.image{
+    width: 75rem;
+    height: 35rem;
+    display: flex;
+    justify-content: center;
+}
+.computer{
+    width: 55rem;
+    position: relative;
+    right: 5rem;
+    float: left;
+}
+.image-desc{
+    padding-top: 3.5rem;
+}
+.text-image{
+    margin-left: 2.5rem;
+    width: 31rem;
+    padding-bottom: 1.5rem;
+}
+.title-func{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 1rem;
+}
+.desc-func{
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    width: 20rem;
+}
+.middle-one-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6.5rem;
+    text-align: center;
+}
+.title-middle-one{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.desc-middle-one{
+    margin-top: 0.5rem;
+    width: 40rem;
+}
+.image-device{
+    padding-top: 3.5rem;
+    width: 55rem;
+}
+.middle-two-body{
+    padding-top: 3.5rem;
+}
+.title-card{
+    text-align: center;
+    padding-bottom: 3.5rem;
+}
+.text-title-card{
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+}
+.desc-title-card{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: smaller;
+}
+.useful{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding-bottom: 3.5rem;
+}
+.body-useful{
+    width: 22rem;
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+.logo-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+    padding-top: 5.5rem;
+}
+.logo{
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-bottom: 5.5rem;
+}
+.bottom-body{
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.title-bottom{
+    padding-bottom: 0.7rem;
+    margin-bottom: 0;
+}
+.desc-bottom{
+    padding-top: 0;
+    margin-top: 0;
+    width: 40rem;
+}
+.download-body{
+    padding-top: 2.5rem;
+}
+.footer-container{
+    background-color: hsl(204, 8%, 88%);
+    display: flex;
+    flex-direction: row;
+    height: 5rem;
+    justify-content: baseline;
+    padding: 2.5rem;
+}
+.bottom-footer{
+    width: 15rem;
+}
+.faq, .policy{
+    display: inline-block;
+    width: 20rem;
+    padding-bottom: 0.5rem;
+}
+.logo-footer{
+    width: 3rem;
+    margin-left: 5.5rem;
+}
+.account{
+    text-align: center;
+    padding: 2.5rem;
+}
+.icon{
+    margin-left: 0.5rem;
+}
+.attribution{
+    margin: 0;
+    padding-bottom: 1rem;
+    background-color: hsl(204, 8%, 88%);
+    font-size: 11px; text-align: center;
+    color: hsl(210, 10%, 33%);
+}
