@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+body{
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: hsl(201, 11%, 66%);
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+h1, h2, h3{
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+    padding-bottom: 2%;
+}
+a{
+    text-decoration: none;
+    color: hsl(210, 10%, 33%);
+}
+.btn{
+    color: #ffff;
+    text-decoration: none;
+    -webkit-border-radius: 25.25;
+    -moz-border-radius: 25.25;
+    border-radius: 25.25rem;
+}
+.btn:hover{
+    text-decoration: none;
+    opacity: 65%;
+}
+.ios{
+    background-color: hsl(171, 66%, 44%);
+    -webkit-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(171, 66%, 44%);
+    -moz-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(171, 66%, 44%);
+    box-shadow: 0.1rem 0.0625rem 0.15rem hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+    -webkit-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(233, 100%, 69%);
+    -moz-box-shadow: 0.1rem 0.0625rem 0.15rem hsl(233, 100%, 69%);
+    box-shadow: 0.1rem 0.0625rem 0.15rem hsl(233, 100%, 69%);
+}
+.footer-container{
+    background-color: hsl(204, 8%, 88%)
+}
+.flink{
+    padding-bottom: 10%;
+}
+.attribution{
+    width: 100%;
+    background-color: hsl(204, 8%, 88%);
+    font-size: 11px; text-align: center;
+    color: hsl(210, 10%, 33%);
+}
+@media(min-width: 450px){
+    body{
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+    }
+    .header-container{
+        margin-top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo-header{
+        width: 50%;
+        padding-bottom: 3%;
+    }
+    .logo-top{
+        width: 15%;
+    }
+    .text-header{
+        padding: 0 15%;
+    }
+    .download-header{
+        width: 50%;
+    }
+    .btn{
+        padding: 1% 10%;
+    }
+    .ios{
+        margin-right: 5%;
+    }
+    .mac{
+        margin-left: 5%;
+    }
+    .body-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .top-body{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card-title{
+        width: 40%;
+        padding: 5% 0;
+    }
+    .text-body{
+        line-height: 1.5;
+    }
+    .image{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .computer{
+        width: 70%;
+        position: relative;
+        right: 5%;
+    }
+    .image-desc{
+        width: 50%;
+        text-align: left;
+        padding-top: 10%;
+    }
+    .text-image{
+        margin: 5% 0;
+        width: 50%;
+        line-height: 1.5;
+    }
+    .title-func{
+        padding-bottom: 2%;
+    }
+    .middle-one-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5%;
+        width: 100%;
+    }
+    .desc-middle-one{
+        width: 40%;
+        padding-bottom: 5%;
+        line-height: 1.5;
+    }
+    .image-device{
+        width: 70%;
+    }
+    .useful{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: baseline;
+        margin-top: 2%;
+    }
+    .body-useful{
+        width: 25%;
+        padding: 0 2%;
+        line-height: 1.5;
+    }
+    .icon{
+        width: 15%;
+    }
+    .logo-middle{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10% 0;
+    }
+    .logo{
+        width: 12%;
+        margin: 0 3%;
+    }
+    .bottom-body{
+        width: 50%;
+    }
+    .download-body{
+        margin-top: 3%;
+    }
+    .desc-bottom{
+        padding: 0 3% 3% 3%;
+        line-height: 1.5;
+    }
+    .footer-container{
+        width: 100%;
+        margin-top: 10%;
+        padding-top: 2%;
+        padding-bottom: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .bottom-footer{
+        width: 25%;
+        text-align: left;
+    }
+    .logo-footer{
+        width: 25%;
+        margin-left: 25%;
+    }
+    .flink{
+        display: block;
+    }
+    .install{
+        padding-right: 10%;
+    }
+    .account{
+        text-align: right;
+        margin-right: 10%;
+    }
+    .ficon{
+        width: 15%;
+        margin: 0 3%;
+    }
+}
+@media(max-width: 1030px) and (min-width: 450px){
+    .download-header, .bottom-body{
+        width: 80%;
+    }
+    .bottom-footer{
+        width: 25%;
+        padding: 0 2%;
+    }
+    .image-desc{
+        padding-top: 0;
+    }
+    .text-image{
+        width: 70%;
+    }
+}
+@media(max-width: 450px){
+    body{
+        display: flex;
+        flex-direction: column;
+        background-image: url(./images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+    }
+    .header-container, .body-container, .footer-container{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .header-container{
+        padding-top: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .logo-header{
+        width: 90%;
+        padding-top: 10%;
+    }
+    .logo-top{
+        width: 40%;
+    }
+    h1{
+        margin-top: 10%;
+        line-height: 1;
+        padding-bottom: 5%;
+    }
+    .text-header{
+        line-height: 1.5;
+        padding: 0 2%;
+    }
+    .download-header{
+        padding: 2% 0;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn{
+        width: 100%;
+        display: block;
+        margin: 15% 0;
+    }
+    .body-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .top-body{
+        width: 100%;
+        margin-top: 25%;
+        text-align: center;
+    }
+    .card-title{
+        padding: 10%;
+    }
+    .title-text{
+        padding: 0 10%;
+        line-height: 1.5;
+    }
+    .text-body{
+        margin-top: 5%;
+        line-height: 1.5;
+    }
+    .text-image{
+        margin: 10% 0;
+        padding: 0 10%;
+        line-height: 1.5;
+    }
+    .title-func{
+        padding-bottom: 2%;
+    }
+    .middle-one-body{
+        text-align: center;
+        margin-top: 20%;
+    }
+    .title-middle-one{
+        padding: 2% 20%;
+        line-height: 1.5;
+    }
+    .desc-middle-one{
+        padding: 5% 15%;
+        line-height: 1.5;
+    }
+    .middle-two-body{
+        text-align: center;
+        padding: 0 5%;
+    }
+    .title-card{
+        padding: 20% 10%;
+        line-height: 1.5;
+    }
+    .text-title-card{
+        padding: 0 5%;
+        padding-bottom: 5%;
+    }
+    .body-useful{
+        margin: 10% 0;
+        padding: 20% 10%;
+    }
+    .desc-useful, .title-useful{
+       padding-top: 5%;
+       line-height: 1.5;
+    }
+    .icon{
+        width: 25%;
+    }
+    .logo-middle{
+        padding: 10%;
+    }
+    .logo{
+        padding: 10%;
+        width: 50%;
+    }
+    .bottom-body{
+        text-align: center;
+        padding: 20% 10%;
+    }
+    .title-bottom, .desc-bottom, .download-body{
+        padding: 5% 10%;
+        line-height: 1.5;
+    }
+    .footer-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .logo-footer{
+        width: 15%;
+        padding-top: 20%;
+        padding-bottom: 2%;
+    }
+    .flink{
+        display: block;
+        padding: 2% 0;
+    }
+    .ficon{
+        width: 8%;
+        padding: 5% 5%;
+    }
+}
